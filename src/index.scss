@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+background-color: black;
+}
+
+//////////// NAV //////////////////////////////////
+//////////// NAV //////////////////////////////////
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: red;
+  .Navs{
+    color:black;
+    font-size: x-large;
+    font-family: 'Anton', sans-serif;
+      
+    
+  }  
+}
+
+//////////// 50/50 //////////////////////////////////
+//////////// 50/50 //////////////////////////////////
+.sidebyside{
+  text-align: center;
+  display: flex;
+  h1{
+    font-size: 4rem;
+    color: grey;
+  }
+  .side{
+    width: 50%;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+    width: 75%;
+  }
+  .sbs{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+//////////// HEADER //////////////////////////////////
+//////////// HEADER //////////////////////////////////
+.header{
+  h1{
+    color: red;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 0;
+  }
+  img{
+    width: 40%;
+    padding-left: 50%;
+  }
+}
+
+//////////// VIDEOS //////////////////////////////////
+//////////// VIDEOS //////////////////////////////////
+.videos{
+  background-image: url('./assets/bg.gif');
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  h1{
+    color: red;
+    font-size: 4rem;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
+}
+
+//////////// MERCH //////////////////////////////////
+//////////// MERCH //////////////////////////////////
+.merch{
+  text-align: center;
+  height: 100vh;
+  h1{
+    color: red;
+    font-size: 4rem;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
+}
+
+//////////// MUSIC //////////////////////////////////
+//////////// MUSIC //////////////////////////////////
+.music{
+  text-align: center;
+  h1{
+    color: red;
+    font-size: 4rem;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
+}
+
+
+//////////MEDIA //////////////////////////////////
+//////////MEDIA //////////////////////////////////
+//////////MEDIA //////////////////////////////////
+//////////MEDIA //////////////////////////////////
+//////////MEDIA //////////////////////////////////
+@media screen and (max-width: 768px) {
+  //////////// NAV //////////////////////////////////
+  //////////// NAV //////////////////////////////////
+  .Nav{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    .Navs{
+      color:black;
+      font-size: large;
+      font-family: 'Anton', sans-serif;
+      
+      
+    }  
+  }
+  
+  //////////// HEADER //////////////////////////////////
+  //////////// HEADER //////////////////////////////////
+  .header{
+    h1{
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0;
+  }
+}
+
+//////////// 50/50 //////////////////////////////////
+//////////// 50/50 //////////////////////////////////
+.sidebyside{
+  text-align: center;
+  display: block;
+  h1{
+    font-size: 3rem;
+    color: grey;
+  }
+  .side{
+    width: 100%;
+  }
+  a{
+    font-size: x-large;
+    color: red;
+    text-decoration: none;
+    width: 75%;
+  }
+  .sbs{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+//////////// VIDEOS //////////////////////////////////
+//////////// VIDEOS //////////////////////////////////
+.videos{
+  background-image: url('./assets/bg.gif');
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  h1{
+    color: red;
+    font-size: 4rem;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
+}
+
+//////////// MERCH //////////////////////////////////
+//////////// MERCH //////////////////////////////////
+.merch{
+  background-image: none;
+  text-align: center;
+  height: 100vh;
+  h1{
+    color: red;
+    font-size: 3rem;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
+}
+
+//////////// MUSIC //////////////////////////////////
+//////////// MUSIC //////////////////////////////////
+.music{
+  text-align: center;
+  h1{
+    color: red;
+    font-size: 3rem;
+  }
+  a{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
+}
+
+
+}
