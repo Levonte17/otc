@@ -10,7 +10,7 @@ function Header(props) {
     LISTEN
     </a>
     <br />
-    <a href='https://www.off-the-curb.net'>
+    <a href='https://www.offthecurb.net'>
     SHOP NOW
     </a>
     <br />
