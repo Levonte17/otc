@@ -12,9 +12,8 @@ background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 80px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  background-color: red;
+  padding: 1% 1%;
+  background-color: white;
   .Navs{
     color:black;
     font-size: x-large;
@@ -24,6 +23,36 @@ background-color: black;
   }  
 }
 
+//////////// HEADER //////////////////////////////////
+//////////// HEADER //////////////////////////////////
+.header{
+  background-image: url('./assets/ap.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1%;
+  padding-bottom: 40%;
+  text-align: center;
+  a{
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    padding-top: 10%;
+  }
+}
+//////////// NAV2 //////////////////////////////////
+//////////// NAV2 //////////////////////////////////
+.nav2{
+  text-align: center;
+  padding-bottom: 1%;
+  background-color: rgba(169, 169, 169, 0.489);
+  a{
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+
+
+}
+}
 //////////// 50/50 //////////////////////////////////
 //////////// 50/50 //////////////////////////////////
 .sidebyside{
@@ -38,7 +67,7 @@ background-color: black;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
     width: 75%;
   }
@@ -52,7 +81,7 @@ background-color: black;
 //////////// HEADER //////////////////////////////////
 .header{
   h1{
-    color: red;
+    color: white;
     font-size: 4rem;
     text-align: center;
     padding-top: 0;
@@ -71,12 +100,12 @@ background-color: black;
   text-align: center;
   height: 100vh;
   h1{
-    color: red;
+    color: white;
     font-size: 4rem;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
   }
 }
@@ -87,12 +116,12 @@ background-color: black;
   text-align: center;
   height: 100vh;
   h1{
-    color: red;
+    color: white;
     font-size: 4rem;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
   }
 }
@@ -102,12 +131,12 @@ background-color: black;
 .music{
   text-align: center;
   h1{
-    color: red;
+    color: white;
     font-size: 4rem;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
   }
 }
@@ -139,13 +168,19 @@ background-color: black;
   //////////// HEADER //////////////////////////////////
   //////////// HEADER //////////////////////////////////
   .header{
-    h1{
-    color: red;
-    font-size: 3rem;
+    background-image: url('./assets/ap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 20%;
     text-align: center;
-    padding-top: 0;
+    a{
+      font-size:x-large;
+      color: red;
+      text-shadow: 3px 3px 3px white;
+      text-decoration: none;
+    }
   }
-}
 
 //////////// 50/50 //////////////////////////////////
 //////////// 50/50 //////////////////////////////////
@@ -161,7 +196,7 @@ background-color: black;
   }
   a{
     font-size: x-large;
-    color: red;
+    color: white;
     text-decoration: none;
     width: 75%;
   }
@@ -179,12 +214,12 @@ background-color: black;
   text-align: center;
   height: 100vh;
   h1{
-    color: red;
+    color: white;
     font-size: 4rem;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
   }
 }
@@ -196,12 +231,12 @@ background-color: black;
   text-align: center;
   height: 100vh;
   h1{
-    color: red;
+    color: white;
     font-size: 3rem;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
   }
 }
@@ -211,12 +246,12 @@ background-color: black;
 .music{
   text-align: center;
   h1{
-    color: red;
+    color: white;
     font-size: 3rem;
   }
   a{
     font-size: 2rem;
-    color: red;
+    color: white;
     text-decoration: none;
   }
 }

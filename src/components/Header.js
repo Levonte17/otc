@@ -1,16 +1,11 @@
-import isocurb from '../assets/isocurb.gif'
 
 function Header(props) {
     
     return (
-<div className='sidebyside'>
-    <div className="side">
-    <h1> OFF THE CURB APPERAL X ISO </h1>
-    <a href='https://www.youtube.com/@iso6274'>
-    LISTEN
-    </a>
+<div className='header'>
     <br />
-    <a href='https://www.offthecurb.net'>
+    <br />
+    <a href='https://offthecurb.net/'>
     SHOP NOW
     </a>
     <br />
@@ -21,15 +16,6 @@ function Header(props) {
     <a href='https://www.youtube.com/watch?v=-kQPn4J_11I'>
     OFF THE CURB APPERAL
     </a>
-    </div>
-<div className="side">
-
-<img 
-  src={isocurb} 
-  alt='iso'
-  className="sbs"
-/>
-</div>
     </div>  
     )
 };

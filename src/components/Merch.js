@@ -11,7 +11,7 @@ function Merch(props) {
 <div className='sidebyside'>
     <div className="side">
 
-    <a href='https://www.off-the-curb.net'>
+    <a href='https://offthecurb.net/'>
 <img 
   src={merch} 
   alt='iso'
@@ -21,7 +21,7 @@ function Merch(props) {
 </div>
 <div className="side">
 
-    <a href='https://www.off-the-curb.net'>
+    <a href='https://offthecurb.net/'>
 <img 
   src={merchii} 
   alt='iso'

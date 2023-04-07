@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Videos from '../components/Videos';
 import Merch from '../components/Merch';
 import Music from '../components/Music';
+import Navi from '../components/Navi';
 //import Why from '../components/Why';
 //import { Navigate } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ function Home(props) {
 //}
   return (
     <div className='feed-container'>
+      <Navi />
       <Header />
       <Videos />
       <Music />
