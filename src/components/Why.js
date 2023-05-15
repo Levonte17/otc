@@ -1,24 +1,31 @@
 import React from 'react'
-import circle from '../assets/circle.png';
-import circlee from '../assets/circlee.png';
-import circleee from '../assets/circleee.png';
+import curbgirl from '../assets/curbgirl.gif';
+import curbboy from '../assets/curbboy.png';
+import curbbaby from '../assets/curbbaby.png';
 
 function Why(props) {
   return (
     <div className='whyus'>
-      <h1> WHY CHOOSE US </h1>
-      <img className='imgs' alt='imgw' src={circle}  />
-      <img className='imgs' alt='imgw' src={circleee}  />
-      <img className='imgs' alt='imgw' src={circlee}  />
-
+      <img className='circles' alt='curbbody' src={curbbaby}  />
         <p>
-        We provide comprehensive business consulting services to help you reach your goals. 
-        Our team of experienced professionals can help you develop a strategic plan, 
-        identify opportunities for growth, and create a roadmap for success. 
-        We also offer a wide range of services, including financial analysis, 
-        market research, and operational optimization.
-         With our expertise and guidance, you can be sure that your business will reach 
-        its full potential.
+        We offer a wide range of unique apperal and styles.
+        If you love to shop simple but clean clothing, this is the 
+        shopping site for you.  
+        </p>
+      
+      <img className='circles' alt='curbbody' src={curbgirl}  />
+        <p>
+        When you shop with us online/ offline, you are family.
+        We are the clothing store who offers customized colors
+        and styles to our customers for a better shopping experience.
+        </p>
+
+      <img className='circles' alt='curbbody' src={curbboy}  />
+        <p>
+        We pride ourselves on customer satisfaction.
+        Keeping our customers happy is our top priority
+        and main focus. 
+
         </p>
     </div>
   )

@@ -6,7 +6,7 @@ function Music(props) {
   return (
     <div className='music'>
 <h1>
-    MUSIC
+    The Artist Behind The Brand
 </h1>
 <div className='sidebyside'>
     <div className="side">

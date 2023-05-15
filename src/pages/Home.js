@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Videos from '../components/Videos';
+import Why from '../components/Why';
 import Merch from '../components/Merch';
 import Music from '../components/Music';
 import Navi from '../components/Navi';
@@ -15,9 +15,9 @@ function Home(props) {
     <div className='feed-container'>
       <Navi />
       <Header />
-      <Videos />
-      <Music />
+      <Why />
       <Merch />
+      <Music />
     </div>
     )
 };

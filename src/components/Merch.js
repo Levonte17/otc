@@ -1,36 +1,38 @@
-import merchii from '../assets/merchii.png'
-import merch from '../assets/merch.png'
+import purpleShirt from '../assets/purpleShirt.png'
+import yellowShirt from '../assets/yellowShirt.png'
+import blackShirt from '../assets/blackShirt.png'
 import React from 'react'
 
 function Merch(props) {
   return (
     <div className='merch'>
 <h1>
-    MERCH
+     SHOP APPAREL
 </h1>
-<div className='sidebyside'>
-    <div className="side">
-
-    <a href='https://offthecurb.net/'>
+<a href='https://offthecurb.net//collections/frontpage/products/curb-baby-t-shirts'>
 <img 
-  src={merch} 
-  alt='iso'
-  className="sbs"
+  src={yellowShirt} 
+  alt='yellow products'
+  className="shirts"
 />  
-  </a>
-</div>
-<div className="side">
 
-    <a href='https://offthecurb.net/'>
+</a>
+<a href='https://offthecurb.net//collections/frontpage/products/curb-baby-t-shirts'>
 <img 
-  src={merchii} 
-  alt='iso'
-  className="sbs"
+  src={blackShirt} 
+  alt='products'
+  className="black shirts"
+/>
+</a>
+<a href='https://offthecurb.net//collections/frontpage/products/curb-baby-t-shirts'>
+<img 
+  src={purpleShirt} 
+  alt='purple'
+  className="shirts"
 />
   </a>
-</div>  
-</div>
-    </div>
+
+  </div>
   )
 };
 export default Merch;

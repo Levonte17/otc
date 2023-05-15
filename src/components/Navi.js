@@ -4,7 +4,7 @@ function Navi(props) {
   return (
     <div className='nav2'>
       <a href='https://offthecurb.net/collections/all'>
-        NEW CUSTOM TEES JUST ADDED
+        SHOP NEW CUSTOM APPAREL 
     </a>
     </div>
   )

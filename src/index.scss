@@ -77,6 +77,26 @@ background-color: black;
   }
 }
 
+///////////WHY////////////
+///////////WHY////////////
+.whyus{
+  color: grey;
+  h1{
+  font-size: 3rem;
+}
+  p{
+    width: 75%;
+    padding-left: 12%;
+    font-size: xx-large;
+  }
+  .circles{
+    height: 25.5rem;
+    width: 25.5rem;
+    border-radius: 50%;
+    padding-left: 2%;
+  }
+}
+
 //////////// HEADER //////////////////////////////////
 //////////// HEADER //////////////////////////////////
 .header{
@@ -124,8 +144,12 @@ background-color: black;
     color: white;
     text-decoration: none;
   }
+  
+  img{
+    width: 25%;
+    padding-left: 5%;
+  }
 }
-
 //////////// MUSIC //////////////////////////////////
 //////////// MUSIC //////////////////////////////////
 .music{
@@ -164,7 +188,21 @@ background-color: black;
       
     }  
   }
-  
+  //////////// NAV2 //////////////////////////////////
+//////////// NAV2 //////////////////////////////////
+.nav2{
+  text-align: center;
+  padding-bottom: 1%;
+  background-color: rgba(169, 169, 169, 0.489);
+a{
+  color: white;
+  font-size: large;
+  text-decoration: none;
+
+
+  }
+}
+
   //////////// HEADER //////////////////////////////////
   //////////// HEADER //////////////////////////////////
   .header{
@@ -172,7 +210,7 @@ background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 1%;
-    padding-bottom: 20%;
+    padding-bottom: 55%;
     text-align: center;
     a{
       font-size:x-large;
@@ -182,6 +220,29 @@ background-color: black;
     }
   }
 
+  ///////////WHY////////////
+///////////WHY////////////
+.whyus{
+  text-align: center;
+  color: white;
+  h1{
+    color: grey;
+  font-size: 2rem;
+}
+  p{
+    width: 75%;
+    padding-left: 12%;
+    font-size: x-large;
+  }
+  .circles{
+    height: 18.5rem;
+    width: 18.5rem;
+    border-radius: 50%;
+    padding-left: 0%;
+    padding-bottom: 2%;
+  }
+}
+/*
 //////////// 50/50 //////////////////////////////////
 //////////// 50/50 //////////////////////////////////
 .sidebyside{
@@ -223,15 +284,18 @@ background-color: black;
     text-decoration: none;
   }
 }
+*/
 
 //////////// MERCH //////////////////////////////////
 //////////// MERCH //////////////////////////////////
 .merch{
   background-image: none;
   text-align: center;
-  height: 100vh;
+  width: 100%;
+  padding-bottom: 55%;
   h1{
-    color: white;
+    color: grey;
+    background-color: white;
     font-size: 3rem;
   }
   a{
@@ -239,15 +303,20 @@ background-color: black;
     color: white;
     text-decoration: none;
   }
+  .shirts{
+    width: 100%;
+    padding-bottom: 2%;
+  }
 }
 
 //////////// MUSIC //////////////////////////////////
 //////////// MUSIC //////////////////////////////////
 .music{
   text-align: center;
+
   h1{
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   a{
     font-size: 2rem;
